@@ -66,6 +66,7 @@
 		EC060294519C4695A865A8F9 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A64F0F14ED494FA09A29F6DF /* libRNVectorIcons.a */; };
 		F737CC76B3B94144A275979A /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 277FFB6D5ABF427F91573296 /* EvilIcons.ttf */; };
 		FA42384D04634D90A179353F /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05E79CFC9D14436B99616EA8 /* Rubik-BlackItalic.ttf */; };
+		FEF912AA1F3ACA150020CDD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEF912A91F3ACA150020CDD6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -391,6 +392,7 @@
 		F17423193A158C349B19B90B /* libPods-ChatApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DEDF8785BB879AF863A4C0 /* libPods-ChatApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B1332DC87402157086AE38 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FEF912A91F3ACA150020CDD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -582,6 +584,7 @@
 		2842F610C00342ACBC95BD21 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FEF912A91F3ACA150020CDD6 /* GoogleService-Info.plist */,
 				EAAEAA63FFC842D8A91A300D /* Entypo.ttf */,
 				277FFB6D5ABF427F91573296 /* EvilIcons.ttf */,
 				12ABA9207054455FB7CBD3CD /* FontAwesome.ttf */,
@@ -1205,6 +1208,7 @@
 				FA42384D04634D90A179353F /* Rubik-BlackItalic.ttf in Resources */,
 				B7EE2D34686A4576B8B6B104 /* Rubik-Bold.ttf in Resources */,
 				B087822D4CE948F693BC9BFD /* Rubik-BoldItalic.ttf in Resources */,
+				FEF912AA1F3ACA150020CDD6 /* GoogleService-Info.plist in Resources */,
 				8C92332BEA884450A5F2C839 /* Rubik-Italic.ttf in Resources */,
 				8B9A311F7DA040FB9033BD1F /* Rubik-Light.ttf in Resources */,
 				553ECACFA49043B1905F67A4 /* Rubik-LightItalic.ttf in Resources */,

@@ -28,13 +28,13 @@ const LoginOrChat = connect(
         authorized: state.user.authorized
     })
 )(({ authorized, dispatch }) => {
-    // if (authorized) {
-    //     return (<ChatUI />);
-    // }else{
-    //     dispatch(checkUserExists());
-    //     return (<LoginUI />);
-    // }
-    return (<LoginUI />);
+    if (authorized) {
+        return (<ChatUI />);
+    }else{
+        dispatch(checkUserExists());
+        return (<LoginUI />);
+    }
+    //return (<LoginUI />);
 });
 
 class App extends Component {

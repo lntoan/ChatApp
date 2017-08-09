@@ -10,6 +10,7 @@ target 'ChatApp' do
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
   pod ‘FirebaseInstanceID’
+  pod 'GoogleToolboxForMac'
   #target 'ChatApp-tvOSTests' do
   #  inherit! :search_paths
   #  # Pods for testing
