@@ -6,6 +6,8 @@ import { Screen, Title, Text, Divider, Button, Spinner } from '@shoutem/ui';
 import Input from '../containers/Input';
 import LoginButton from '../containers/LoginButton';
 import { setUserName, setUserAvatar } from '../actions';
+// imports
+import Account from './Account';
 
 const mapStateToProps = (state) => ({
     authorizing: state.user.authorizing
